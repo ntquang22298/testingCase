@@ -1,5 +1,5 @@
-// Kết quả của bạn là không tạo được nhưng khi em test lại thì vẫn tạo được bình thường 
-describe('Kiểm tra bỏ trống phần  mô tả', function () {
+
+describe('Kiểm tra nhập số lần làm bài quá 2 chữ số', function () {
 
     context('Đăng nhập', function () {
       beforeEach(function () {
