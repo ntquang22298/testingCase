@@ -34,7 +34,7 @@ describe('Kiểm tra nhập số âm cho số lần làm bài', function () {
         
         // Ấn nút tạo
         cy.get('form.ng-valid > .modal-footer > .btn-primary').click();
-  
+        cy.contains('Số lần làm lại phải lớn hơn hoặc bằng 0').should('exist');
         // cy.get('#userDropdown > span').should('contain', '(ntquang22298@gmail.com)'); // type user_name
       })
     })

@@ -34,7 +34,7 @@ describe('Kiểm tra nhập số lần làm bài quá 2 chữ số', function ()
         
         // Ấn nút tạo
         cy.get('form.ng-valid > .modal-footer > .btn-primary').click();
-  
+        cy.contains('Số lần làm lại phải nhỏ hơn 99').should('exist');
         // cy.get('#userDropdown > span').should('contain', '(ntquang22298@gmail.com)'); // type user_name
       })
     })

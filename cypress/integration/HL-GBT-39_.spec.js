@@ -29,7 +29,7 @@ describe('Kiểm tra nhập khoảng trống vào mô tả', function () {
       cy.get('.ng-option-label').click();
       // Ấn nút tạo
       cy.get('form.ng-valid > .modal-footer > .btn-primary').click();
-
+      cy.contains('Giao bài tập không thành công').should('exist');
       // cy.get('#userDropdown > span').should('contain', '(ntquang22298@gmail.com)'); // type user_name
     })
   })
