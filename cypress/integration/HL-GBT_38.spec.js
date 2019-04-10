@@ -1,4 +1,4 @@
-// Kết quả của bạn là không tạo được nhưng khi em test lại thì vẫn tạo được bình thường 
+
 describe('Kiểm tra bỏ trống phần  mô tả', function () {
 
     context('Đăng nhập', function () {
